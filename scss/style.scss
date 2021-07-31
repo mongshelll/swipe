@@ -36,6 +36,15 @@
     &:nth-of-type(4) {
       background-image: url(../img/bg4.jpg);
     }
+    &:nth-of-type(5) {
+      background-image: url(../img/bg5.jpg);
+    }
+    &:nth-of-type(6) {
+      background-image: url(../img/bg6.jpg);
+    }
+    &:nth-of-type(7) {
+      background-image: url(../img/bg7.jpg);
+    }
   }
 
   .swiper-wrapper {
@@ -44,9 +53,9 @@
 
     .swiper-slide {
       width: 60vw;
-      height: 60vh;
+      height: 80vh;
       position: relative;
-      top: 20vh;
+      top: 10vh;
 
       .inner {
         width: 100%;
@@ -69,7 +78,7 @@
 
   .swiper-button-next {
     top: auto;
-    bottom: 5vh;
+    bottom: 3vh;
     right: 10vw;
     transform: scale(0.5);
     filter: brightness(0%);
@@ -77,7 +86,7 @@
   }
   .swiper-button-prev {
     top: auto;
-    bottom: 5vh;
+    bottom: 3vh;
     left: auto;
     right: calc(10vw + 50px);
     transform: scale(0.5);
@@ -88,7 +97,7 @@
   .swiper-pagination {
     position: absolute;
     right: 10vw;
-    top: 10vh;
+    top: 5vh;
     left: auto;
     bottom: auto;
     width: auto;

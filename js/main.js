@@ -1,4 +1,4 @@
-const menu = ["Company", "News", "Information", " news"];
+const menu = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 const swiper = new Swiper("#wrap", {
   loop: true,
